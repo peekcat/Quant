@@ -2,7 +2,7 @@
 
 miniQMT是属于QMT的一个子功能，miniQMT将策略编写和实盘分离，在本地配置好的Python环境中编写策略，然后传递给券商的实盘接口进行交易。与QMT最大的不同在于，miniQMT可以直接使用`xtquant`框架，在软件之外写python程序与QMT客户端连接，进行程序化下单。这样QMT客户端就完全变成一个交易终端，量化程序可以独立于QMT运行。
 
-### 1 下载xquant
+### 1 下载xtquant
 
 部分MQT在安装目录`bin.x64/Lib/site_packages`中可以找到`xtquant`文件夹，部分版本可能无法找到`xtquant`文件文件夹，可以在迅投官网下载，[xtquant下载地址](https://dict.thinktrader.net/nativeApi/download_xtquant.html)，下载后解压。
 
